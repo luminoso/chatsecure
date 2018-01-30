@@ -23,7 +23,7 @@ It is divided in two phases:
 This proposal has a client\:server architecture, where the server simply relays the data between two communication peers. It includes two libraries:
 
 * **CSCrypto** has all the needed methods both for clients and server to deal with both for symmetric and asymmetric keys
-* **PKCS11_Wrapper** has the abstraction needed to operate with the smart card though the PyCKS11 library
+* **PKCS11_Wrapper** has the abstraction needed to operate with the smart card though the PyKCS11 library
 
 The modules have the following incremental functionality:
 
